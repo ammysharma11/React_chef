@@ -1,9 +1,8 @@
-import chefLogo from "./images/chef-icon.png"
 
 export default function Header() {
     return (
         <header>
-            <img src={chefLogo}/>
+            <img src={./images/chef-icon.png}/>
             <h1>Chef </h1>
         </header>
     )
